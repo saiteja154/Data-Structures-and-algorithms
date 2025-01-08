@@ -18,7 +18,7 @@ public class MyStack {
             Q1.remove();
         }
 
-        Queue<Integer> Q=Q1;
+        Queue<Integer> Q=Q1;//Q is empty Queue;
         Q1=Q2;
         Q2=Q;
         return ;
